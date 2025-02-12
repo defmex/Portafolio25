@@ -1,1 +1,11 @@
-<p>proyect works!</p>
+<div class="rounded-sm shadow-lg box-border size-80">
+    <img class="rounded-lg" [src]="img" [alt]="imgAlt" />
+    <div class="mt-4 ">
+        <div class="mt-1 font-bold text-gray-700    ">
+            <a [href]="url" class="hover:underline">{{ title }}</a>
+        </div>
+        <div class="text-sm text-justify font-mono ">{{ description }}</div>
+
+        <button class="btn-primary">Save changes</button>
+    </div>
+</div>
