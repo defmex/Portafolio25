@@ -1,11 +1,15 @@
-<div class="rounded-sm shadow-lg box-border size-80">
-    <img class="rounded-lg" [src]="img" [alt]="imgAlt" />
-    <div class="mt-4 ">
-        <div class="mt-1 font-bold text-gray-700    ">
-            <a [href]="url" class="hover:underline">{{ title }}</a>
+<div class="mx-auto max-w-md overflow-hidden rounded-xl shadow-md md:max-w-2xl bg-emerald-500">
+    <div class="md:flex">
+        <div class="md:shrink-0">
+            <img class="rounded-lg object-cover md:h-full md:w-48 bg-amber-300 " [src]="img" [alt]="imgAlt" />
         </div>
-        <div class="text-sm text-justify font-mono ">{{ description }}</div>
-
-        <button class="btn-primary">Save changes</button>
+        <div class="mt-4 bg-blue-500 p-4 rounded-lg">
+            <div class="mt-1 font-bold text-gray-700    ">
+                <a [href]="url" class="hover:underline">{{ title }}</a>
+            </div>
+            <div class="text-sm text-justify font-mono my-4 ">{{ description }}</div>
+    
+            <button class="btn-primary">Save changes</button>
+        </div>
     </div>
 </div>
