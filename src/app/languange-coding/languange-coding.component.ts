@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-languange-coding',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './languange-coding.component.css'
 })
 export class LanguangeCodingComponent {
-
+  @Input() img!: string;
+  @Input() imgAlt!: string;
+  @Input() name!: string;
 }
