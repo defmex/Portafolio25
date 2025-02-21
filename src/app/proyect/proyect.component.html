@@ -3,13 +3,13 @@
         <div class="shrink-0">
             <img class="rounded-lg object-cover h-full w-120 bg-acento " [src]="img" [alt]="imgAlt" />
         </div>
-        <div class="grid grid-cols-2 mt-4 p-4 rounded-lg  bg-primario">
-            <div class=" font-bold text-secundario col-span-2 text-center mt-10 ">
+        <div class="grid grid-cols-1 mt-4 p-4 rounded-lg  bg-primario mx-5">
+            <div class=" font-bold text-secundario place-content-center col-span-2 text-center mt-10 ">
                 <h1>{{ title }}</h1>
             </div>
-            <div class="text-sm text-justify font-mono my-4 col-span-2">{{ description }}</div>
-            <div class="col-end-2 place-content-end justify-between">
-                <button class="btn-primary">Save changes</button>
+            <div class="text-sm text-justify font-mono my-4 col-span-2 ">{{ description }}</div>
+            <div class="col-end-3 place-content-center  ">
+                <button class="btn-primary ">Save changes</button>
             </div>
         </div>
     </div>
