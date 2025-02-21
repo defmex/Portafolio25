@@ -3,15 +3,17 @@
     
 </header>
 
-<body class="bg-fondo">
-    
-    <section class="m-20 text-secundario">
-        <div class="">
-            <h1 class="text-center text-4xl text-secundario">Proyectos</h1>
+<body class=" bg-fondo">
 
+    <app-page-init></app-page-init>
+
+    <section class="flex flex-auto justify-center text-secundario">
+        <div class="py-20 ">
+            <h1 class="text-center text-6xl ">Proyectos</h1>
         </div>
     </section>
-    <section id="proyectos" class="gap-8 columns-3 grid grid-cols-1 sm:grid-cols-1 m-20 place-content-center">
+    
+    <section id="proyectos" class="gap-8 columns-3 grid grid-cols-1 sm:grid-cols-1 mx-60 place-content-center">
 
         <app-proyect 
             img="angularjs.svg"
@@ -109,7 +111,7 @@
 
     <!-- This section is for aggred totaly of lenguage that know-->
 
-    <section class=" mx-auto flex flex-wrap items-center" >
+    <section class=" mx-60 flex flex-wrap items-center" >
         <div class="flex-auto"><app-languange-coding
                 img="c.svg"
                 name="C">
