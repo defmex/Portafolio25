@@ -6,11 +6,10 @@
             <h1>Rodrigo Cerda</h1>
         </div>
         <ul class="flex-wrap gap-x-5 items-center p-2  space-x-4 ">
-            <a href="#contacto" class=" p-2 hover:underline hover:text-acento" >Inicio</a>
-            <a href="#contacto" class=" p-2 hover:underline hover:text-acento" >Contacto</a>
-            <a href="#contacto" class=" p-2 hover:underline hover:text-acento" >Proyectos</a>
-            <a href="#contacto" class=" p-2 hover:underline hover:text-acento">Github</a>
-            <a href="#contacto" class=" p-2 hover:underline hover:text-acento">Bitbucket</a>
+            <a class="btn-primary" [routerLink]="['/']" fragment="inicio" >Inicio</a>
+            <a class="btn-primary" [routerLink]="['/']" fragment="contactos" >Contacto</a>
+            <a class="btn-primary" [routerLink]="['/']" fragment="proyectos" >Proyectos</a>
+            
         </ul>
     </div>
     <!-- this part is for format mobile -->
