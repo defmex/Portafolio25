@@ -17,6 +17,10 @@ export class PageInitComponent {
   }
 
   irPagina(){
+    console.log('tocoimagen');
     this.router.navigate(['proyecto']);
+  }
+  abrirEnlace() {
+    window.open('https://www.google.com', '_blank'); // Abre en una nueva pestaña
   }
 }
