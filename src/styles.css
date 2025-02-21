@@ -1,6 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
 
+@theme {
+    --color-primario: #F5F5F5;
+    --color-secundario:  #333333;
+    --color-acento: #007ACC;
+    --color-fondo: #EAEAEA;
+  }
+  
 @layer components {
     .btn-primary {
       border-radius: calc(infinity * 1px);
