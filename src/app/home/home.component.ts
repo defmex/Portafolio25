@@ -3,11 +3,12 @@ import { ProyectComponent } from "../proyect/proyect.component";
 import { LanguangeCodingComponent } from "../languange-coding/languange-coding.component";
 import { PageInitComponent } from "../page-init/page-init.component";
 import { RouterModule, Router, RouterLink, RouterLinkActive } from '@angular/router';
+import { AboutComponent } from "../about/about.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [ProyectComponent, LanguangeCodingComponent, PageInitComponent,  RouterModule, ],
+  imports: [ProyectComponent, LanguangeCodingComponent, PageInitComponent, RouterModule, AboutComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
