@@ -11,15 +11,16 @@
 @layer components {
     .btn-primary {
       border-radius: calc(infinity * 1px);
-      background-color: var(--color-amber-300);
+      background-color: var(--color-acento);
       padding-inline: --spacing(5);
       padding-block: --spacing(2);
       font-weight: var(--font-weight-semibold);
-      color: var(--color-white);
+      color: var(--color-primario);
       box-shadow: var(--shadow-md);
       &:hover {
         @media (hover: hover) {
-          background-color: var(--color-violet-700);
+          background-color: var(--color-primario);
+          color: var(--color-acento);
         }
       }
     }
